@@ -1,0 +1,6 @@
+﻿pack.name=name RP
+pack.description=v1.0.0 desc! §8Developer: §6Legopitstop
+
+gui.HERE=HERE
+tile.MOD_ID:HERE.name=HERE
+item.MOD_ID:HERE=HERE
