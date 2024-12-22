@@ -3,7 +3,9 @@
   "minecraft:attachable": {
     "description": {
       "identifier": "MOD_ID:leggings.player",
-      "item": { "MOD_ID:leggings": "q.owner_identifier=='minecraft:player'" },
+      "item": {
+        "MOD_ID:leggings": "q.is_owner_identifier_any('minecraft:player')"
+      },
       "materials": {
         "default": "armor",
         "enchanted": "armor_enchanted"

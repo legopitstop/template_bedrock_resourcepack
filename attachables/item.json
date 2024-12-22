@@ -4,7 +4,7 @@
     "description": {
       "identifier": "MOD_ID:item",
       "item": {
-        "MOD_ID:item": "q.owner_identifier=='minecraft:player'"
+        "MOD_ID:item": "q.is_owner_identifier_any('minecraft:player')"
       },
       "materials": {
         "default": "entity_alphatest",
