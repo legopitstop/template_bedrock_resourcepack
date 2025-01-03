@@ -9,10 +9,10 @@ Template bedrock resource pack
 | Key                | Value     |
 | ------------------ | --------- |
 | supported          | `yes`     |
-| namespace          | `MOD_ID`  |
-| version            | `1.0.0 `  |
-| UUID               | `UUID1`    |
-| mc_version         | `1.20.80` |
+| namespace          | `mod_id`  |
+| version            | `1.0.0`   |
+| UUID               | `UUID1`   |
+| mc_version         | `1.21.51` |
 | multiplayer_tested | `no`      |
 | has_config         | `no`      |
 | dependency         | `null`    |

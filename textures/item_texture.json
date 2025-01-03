@@ -2,14 +2,8 @@
   "resource_pack_name": "vanilla",
   "texture_name": "atlas.items",
   "texture_data": {
-    "MOD_ID:simple_food": {
-      "textures": "textures/items/simple_food.png"
-    },
-    "MOD_ID:simple_item": {
-      "textures": "textures/items/simple_item.png"
-    },
-    "MOD_ID:simple_tool": {
-      "textures": "textures/items/simple_tool.png"
+    "mod_id:custom": {
+      "textures": "textures/items/custom.png"
     }
   }
 }

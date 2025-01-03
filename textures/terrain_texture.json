@@ -4,11 +4,8 @@
   "padding": 8,
   "num_mip_levels": 4,
   "texture_data": {
-    "MOD_ID:rotatable_block": {
-      "textures": ["textures/blocks/rotatable_block.png"]
-    },
-    "MOD_ID:simple_block": {
-      "textures": ["textures/blocks/simple_block.png"]
+    "mod_id:custom": {
+      "textures": ["textures/blocks/custom.png"]
     }
   }
 }

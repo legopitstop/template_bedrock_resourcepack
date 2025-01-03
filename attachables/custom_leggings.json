@@ -2,27 +2,27 @@
   "format_version": "1.10.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "MOD_ID:helmet.player",
+      "identifier": "mod_id:custom_leggings.player",
       "item": {
-        "MOD_ID:helmet": "q.is_owner_identifier_any('minecraft:player')"
+        "mod_id:custom_leggings": "q.is_owner_identifier_any('minecraft:player')"
       },
       "materials": {
         "default": "armor",
         "enchanted": "armor_enchanted"
       },
       "textures": {
-        "default": "textures/models/armor/helmet_1",
+        "default": "textures/models/armor/custom_2",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {
-        "default": "geometry.player.armor.helmet"
+        "default": "geometry.player.armor.leggings"
       },
       "scripts": {
-        "parent_setup": "variable.helmet_layer_visible = 0.0;",
+        "parent_setup": "variable.leg_layer_visible = 0.0;",
         "animate": ["offset"]
       },
       "animations": {
-        "offset": "animation.armor.helmet.offset"
+        "offset": "animation.armor.leggings.offset"
       },
       "render_controllers": ["controller.render.armor"]
     }
